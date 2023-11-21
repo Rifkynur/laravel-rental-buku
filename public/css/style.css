@@ -1,0 +1,27 @@
+.main {
+    height: 100vh;
+}
+.sidebar a {
+    text-decoration: none;
+    display: block;
+    padding: 1.5rem;
+    color: white;
+    transition: 0.3s ease;
+}
+.sidebar a:hover {
+    background-color: black;
+}
+.active {
+    background-color: black;
+    border-right: solid 10px #16ff00;
+}
+.card-data {
+    border: 2px solid black;
+}
+.card-data i {
+    font-size: 3rem;
+}
+.card-desc,
+.card-count {
+    font-size: 1.5rem;
+}
